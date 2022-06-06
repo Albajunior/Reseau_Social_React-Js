@@ -1,0 +1,34 @@
+.gif-search{
+    border: 1px solid cornflowerblue;
+    background-color: rgb(90, 88, 88);
+    width: 1000px;
+}
+.gif-search-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gif-search-input{
+    background-color: grey;
+}
+.gif-close{
+    border: 1px solid white;
+}
+.gif-close:hover{
+    cursor: pointer;
+}
+.gif-list{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dimgray;
+    list-style: none;
+}
+.gif:hover{
+    cursor: pointer;
+}
+.load-gifs-button{
+    font-size: larger;
+}
+.load-gifs-button:hover{
+    cursor: pointer;
+}

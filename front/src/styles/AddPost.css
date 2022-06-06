@@ -1,0 +1,51 @@
+#addpost-frame{
+    margin-left: 50px;
+    margin-bottom: auto;
+}
+#addpost-form{
+    margin-top: 50px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#addpost-submit{
+    margin-right: auto;
+}
+#addpost-input{
+    width: 500px;
+    height: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    border: 1px solid grey;
+}
+#set-topic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+    height: 20px;
+}
+#media{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+#upload{
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.gifs{
+    border: 1px solid cornflowerblue;
+    background-color: grey;
+    color: white;
+    max-height: 20px;
+    margin-bottom: 15px;
+}
+.gifs:hover{
+    cursor: pointer;
+}
+#gif-anchor-addpost{
+    z-index: 1;
+}

@@ -1,0 +1,14 @@
+#page-topics{
+    list-style: decimal;
+    background-image: radial-gradient(rgb(234, 116, 116), aliceblue);
+    min-width: 600px;
+}
+.page-topic{
+    font-size: 30px;
+    padding-left: 100px;
+}
+.page-topic:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}

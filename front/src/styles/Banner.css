@@ -1,0 +1,12 @@
+.gpm-banner {
+    min-width: 580px;
+    color: black;
+    padding: 32px;
+    background-color: #fccfcf;
+    text-align: center;
+}
+
+.gpm-logo{
+    width: 70px;
+    height: fit-content;
+}

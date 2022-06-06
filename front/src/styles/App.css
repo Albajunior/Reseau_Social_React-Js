@@ -1,0 +1,17 @@
+#root{
+  min-width: 580px;
+}
+.sticky{
+  top: -130px;
+  opacity: 1;
+  position: sticky;
+}
+.relative{
+  position: relative;
+}
+
+@media (max-width:380px){
+  #root{
+    max-width: 380px;
+  }
+}

@@ -1,0 +1,69 @@
+.profile-frame{
+    min-width: 580px;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+    background-image: repeating-linear-gradient(rgba(238, 67, 67, 0.341),rgba(232, 181, 181, 0.851));
+}
+
+#main-infos div{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+#edit-main-infos input{
+    margin-bottom: 10px;
+}
+#secondary-infos{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+#set-description{
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+    width: 526px;
+    margin-right: -4px;
+}
+#picture-frame{
+    display: flex;
+    justify-content: center;
+    height: 280px;
+    width: 280px;
+    margin: 30px;
+    border-radius: 20px ;
+    border: 3px solid rgb(32, 32, 110);
+    overflow: hidden;
+}
+#profile-picture{
+    border-radius: 20px;
+    height: 280px;
+}
+#posts-frame{
+    background-image:  radial-gradient(rgb(234, 116, 116), aliceblue);
+    border: 2px solid rgb(32, 32, 110);
+    width: 96%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#posts-frame ul{
+    list-style-type: none;
+}
+
+#edit-main-infos-btn{
+    margin-top: 10px;
+    height: 30px;
+}
+
+#edit-secondary-infos-btn{
+    height: 30px;
+}

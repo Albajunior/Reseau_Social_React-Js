@@ -1,0 +1,105 @@
+.top{
+    min-width: 645px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid rgb(32, 32, 110);;
+    margin-bottom: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 40px;
+    margin-left: auto;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.navbar a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(32, 32, 110);
+    border: solid 3px rgb(235, 136, 163);
+}
+
+.options-icon{
+    width: 35px;
+    height: 35px;   
+    padding: 10px;
+}
+#options{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#options-button{
+    width: 10px;
+    height: 10px;
+}
+#options-anchor{
+    width: 10px;
+    height: 10px;
+}
+#options-anchor:hover #options-padding{
+    animation: slide 1s forwards;
+}
+
+#options-padding{
+    position: absolute;
+    left: -300px;
+    width: 300px;
+    height: 900px;
+    background-color: gray;
+    opacity: 0.9;
+}
+
+#search-list{
+    border: none;
+    padding: 0px;
+}
+
+#search-list a{
+    text-decoration: none;
+}
+
+#search-list li:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#search-form:hover #search-list{
+    border: 1px solid grey;
+    border-top: none;
+}
+
+.searchbar{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.options-link{
+    opacity: 1 !important;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
+.options-link:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.topic{
+    list-style: decimal;
+    padding-left: 0;
+}
+.topic:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+@keyframes slide {
+    100% {left: 0px;}
+}
