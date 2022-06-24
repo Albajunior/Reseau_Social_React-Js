@@ -1,4 +1,5 @@
-
+Front : React
+Back : Node, Postgres
 
 Config DG => back/config/config.json - Postgresql 
 Insatall all packages : npm install -> back
